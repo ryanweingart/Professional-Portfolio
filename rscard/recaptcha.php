@@ -279,7 +279,9 @@
 					<h2 class="section-title">You're not a bot? Aren't you?</h2>
 					<div class="section-box">
 					<?php
-					if ($siteKey === '' || $secret === ''): ?>
+					if ($siteKey === '6LeALrEUAAAAAFoep5AjjgjLhyPx6FeE9UW35Hb0
+                    ' || $secret === '6LeALrEUAAAAAK6WkIevY9UbKezwEKXYUpD8RAon
+                    '): ?>
 						<h4>Add your keys</h4>
 						<p>If you do not have keys already then visit
 						<a href = "https://www.google.com/recaptcha/admin">
