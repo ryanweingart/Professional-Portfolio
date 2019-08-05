@@ -269,8 +269,8 @@
 						
 			<!-- START: PAGE CONTENT -->
 			<?php require_once __DIR__ . '/php/recaptcha/autoload.php';				
-				$siteKey = ''; // visit https://www.google.com/recaptcha/admin to generate keys
-				$secret = '';
+				$siteKey = '6LeALrEUAAAAAFoep5AjjgjLhyPx6FeE9UW35Hb0'; // visit https://www.google.com/recaptcha/admin to generate keys
+				$secret = '6LeALrEUAAAAAK6WkIevY9UbKezwEKXYUpD8RAon';
 				$lang = 'en'; // reCAPTCHA supported 40+ languages listed here: https://developers.google.com/recaptcha/docs/language
 			?>
 			
@@ -279,9 +279,7 @@
 					<h2 class="section-title">You're not a bot? Aren't you?</h2>
 					<div class="section-box">
 					<?php
-					if ($siteKey === '6LeALrEUAAAAAFoep5AjjgjLhyPx6FeE9UW35Hb0
-                    ' || $secret === '6LeALrEUAAAAAK6WkIevY9UbKezwEKXYUpD8RAon
-                    '): ?>
+					if ($siteKey === '' || $secret === ''): ?>
 						<h4>Add your keys</h4>
 						<p>If you do not have keys already then visit
 						<a href = "https://www.google.com/recaptcha/admin">
